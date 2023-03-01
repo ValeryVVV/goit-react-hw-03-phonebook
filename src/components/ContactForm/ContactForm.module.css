@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  border: 1px solid black;
+  padding: 50px;
+  background: #beeaec;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 400;
+  width: 300px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.inputName {
+  margin-left: 35px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid rgb(215, 106, 12);
+  width: 100px;
+  background-color: blanchedalmond;
+}
+
+button:hover {
+  border: 1px solid rgb(215, 106, 12);
+  background-color: rgb(130 210 226);
+}
